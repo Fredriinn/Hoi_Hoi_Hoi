@@ -21,5 +21,19 @@ foreach($students as $index => $value){
 echo("$index - $value<br>");
 }
 ?>
+<h2>My Hobbies</h2>
+<ul>
+    <li>Reading</li>
+    <li>Traveling</li>
+    <li>Gaming</li>
+
+
+<?php
+foreach($students as $st){
+echo("<li>$st</li>");
+}
+?>
+</ul>
+    
 </body>
 </html>
