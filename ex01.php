@@ -21,6 +21,7 @@ foreach($students as $index => $value){
 echo("$index - $value<br>");
 }
 ?>
+<h2>My Hobbies</h2>
 <ul>
     <li>Reading</li>
     <li>Traveling</li>
